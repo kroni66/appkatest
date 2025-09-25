@@ -1,4 +1,4 @@
-﻿name: iOS Build
+name: iOS Build
 
 on:
   push:
@@ -19,10 +19,15 @@ jobs:
         flutter-version: '3.x'
         channel: 'stable'
 
-    - name: Get dependencies
+    - name: Get Flutter dependencies
       run: flutter pub get
 
-    - name: Build iOS
+    - name: Install iOS dependencies (CocoaPods)
+      run: |
+        cd ios
+        pod install
+
+    - name: Build iOS IPA
       run: flutter build ipa --release --no-codesign
 
     - name: Upload IPA artifact
