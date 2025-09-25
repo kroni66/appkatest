@@ -12,11 +12,12 @@ workflows:
         script: flutter create --platforms=ios .
       - name: Clean and build IPA
         script: |
-          flutter build ipa --release --no-codesign
+          flutter build ipa --release
     artifacts:
       - build/ios/ipa/*.ipa
     publishing:
       email:
         recipients:
           - xaranex@gmail.com  # Replace with your email for notifications
+
 
