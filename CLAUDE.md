@@ -3,7 +3,7 @@
 # Byterover MCP Server Tools Reference
 
 There are two main workflows with Byterover tools and recommended tool call strategies that you **MUST** follow precisely.
-
+sdfsdfd
 ## Onboarding workflow
 If users particularly ask you to start the onboarding process, you **MUST STRICTLY** follow these steps.
 1. **ALWAYS USE** **byterover-check-handbook-existence** first to check if the byterover handbook already exists. If not, You **MUST** call **byterover-create-handbook** to create the byterover handbook.
