@@ -11,13 +11,14 @@ workflows:
       - name: Clean and build IPA
         script: |
           flutter config --enable-ios
-          flutter build ipa --release
+          flutter build ipa --release --no-codesign
     artifacts:
       - build/ios/ipa/*.ipa
     publishing:
       email:
         recipients:
           - xaranex@gmail.com  # Replace with your email for notifications
+
 
 
 
