@@ -22,10 +22,8 @@ jobs:
     - name: Get Flutter dependencies
       run: flutter pub get
 
-    - name: Install iOS dependencies (CocoaPods)
-      run: |
-        cd ios
-        pod install
+    - name: Generate iOS platform files (if missing)
+      run: flutter create --platforms=ios .
 
     - name: Build iOS IPA
       run: flutter build ipa --release --no-codesign
