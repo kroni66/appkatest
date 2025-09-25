@@ -1,0 +1,17 @@
+<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Lemon body -->
+  <ellipse cx="40" cy="40" rx="18" ry="25" fill="#FFD700"/>
+  <ellipse cx="40" cy="40" rx="16" ry="23" fill="#FFFF00"/>
+
+  <!-- Lemon segments -->
+  <path d="M25 25 Q40 20 55 25 Q40 30 25 25" fill="#FFFACD" opacity="0.7"/>
+  <path d="M25 40 Q40 35 55 40 Q40 45 25 40" fill="#FFFACD" opacity="0.7"/>
+  <path d="M25 55 Q40 50 55 55 Q40 60 25 55" fill="#FFFACD" opacity="0.7"/>
+
+  <!-- Lemon tip -->
+  <path d="M40 15 Q35 12 40 10 Q45 12 40 15" fill="#32CD32"/>
+
+  <!-- Lemon shine -->
+  <ellipse cx="35" cy="35" rx="6" ry="4" fill="#FFFFFF" opacity="0.8"/>
+  <ellipse cx="35" cy="45" rx="4" ry="2" fill="#FFFFFF" opacity="0.6"/>
+</svg>

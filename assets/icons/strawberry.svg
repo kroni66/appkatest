@@ -1,0 +1,30 @@
+<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Strawberry body -->
+  <path d="M40 20 Q25 25 20 40 Q18 55 25 65 Q35 75 45 75 Q55 75 65 65 Q72 55 70 40 Q65 25 50 20 Q40 20 40 20" fill="#FF0000"/>
+  <path d="M40 22 Q27 27 22 42 Q20 57 27 67 Q37 77 47 77 Q57 77 67 67 Q74 57 72 42 Q67 27 52 22 Q40 22 40 22" fill="#DC143C"/>
+
+  <!-- Strawberry seeds -->
+  <ellipse cx="30" cy="30" rx="1" ry="2" fill="#FFFF00"/>
+  <ellipse cx="35" cy="35" rx="1" ry="2" fill="#FFFF00"/>
+  <ellipse cx="40" cy="32" rx="1" ry="2" fill="#FFFF00"/>
+  <ellipse cx="45" cy="35" rx="1" ry="2" fill="#FFFF00"/>
+  <ellipse cx="50" cy="30" rx="1" ry="2" fill="#FFFF00"/>
+  <ellipse cx="32" cy="40" rx="1" ry="2" fill="#FFFF00"/>
+  <ellipse cx="38" cy="42" rx="1" ry="2" fill="#FFFF00"/>
+  <ellipse cx="42" cy="42" rx="1" ry="2" fill="#FFFF00"/>
+  <ellipse cx="48" cy="40" rx="1" ry="2" fill="#FFFF00"/>
+  <ellipse cx="35" cy="48" rx="1" ry="2" fill="#FFFF00"/>
+  <ellipse cx="40" cy="50" rx="1" ry="2" fill="#FFFF00"/>
+  <ellipse cx="45" cy="48" rx="1" ry="2" fill="#FFFF00"/>
+  <ellipse cx="50" cy="52" rx="1" ry="2" fill="#FFFF00"/>
+  <ellipse cx="30" cy="52" rx="1" ry="2" fill="#FFFF00"/>
+
+  <!-- Strawberry shine -->
+  <ellipse cx="35" cy="35" rx="6" ry="4" fill="#FFFFFF" opacity="0.7"/>
+  <ellipse cx="42" cy="42" rx="3" ry="2" fill="#FFFFFF" opacity="0.5"/>
+
+  <!-- Strawberry leaves -->
+  <path d="M40 18 Q35 15 38 12 Q42 15 40 18" fill="#228B22"/>
+  <path d="M40 18 Q45 15 42 12 Q38 15 40 18" fill="#32CD32"/>
+  <path d="M40 18 Q40 12 43 15 Q40 18 40 18" fill="#228B22"/>
+</svg>

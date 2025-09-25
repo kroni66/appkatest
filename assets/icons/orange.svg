@@ -1,0 +1,19 @@
+<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Orange body -->
+  <circle cx="40" cy="40" r="22" fill="#FF8C00"/>
+  <circle cx="40" cy="40" r="20" fill="#FFA500"/>
+
+  <!-- Orange segments -->
+  <path d="M20 40 Q40 25 60 40 Q40 55 20 40" fill="#FF7F00" opacity="0.8"/>
+  <path d="M40 20 Q55 40 40 60 Q25 40 40 20" fill="#FF7F00" opacity="0.8"/>
+
+  <!-- Orange texture -->
+  <circle cx="30" cy="30" r="3" fill="#FF6B00" opacity="0.6"/>
+  <circle cx="50" cy="35" r="2" fill="#FF6B00" opacity="0.6"/>
+  <circle cx="35" cy="50" r="3" fill="#FF6B00" opacity="0.6"/>
+  <circle cx="45" cy="55" r="2" fill="#FF6B00" opacity="0.6"/>
+
+  <!-- Orange shine -->
+  <ellipse cx="35" cy="35" rx="8" ry="5" fill="#FFFFFF" opacity="0.7"/>
+  <ellipse cx="42" cy="42" rx="4" ry="2" fill="#FFFFFF" opacity="0.5"/>
+</svg>
