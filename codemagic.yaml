@@ -8,9 +8,10 @@ workflows:
         script: flutter upgrade
       - name: Get Flutter dependencies
         script: flutter pub get
+      - name: Installing
+        script: flutter create --platforms=ios .
       - name: Clean and build IPA
         script: |
-          flutter clean
           flutter build ipa --release --no-codesign
     artifacts:
       - build/ios/ipa/*.ipa
@@ -18,3 +19,4 @@ workflows:
       email:
         recipients:
           - xaranex@gmail.com  # Replace with your email for notifications
+
